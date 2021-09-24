@@ -13,6 +13,7 @@ class Stack {
   //retorna el ultimo valor de la pila sin eliminar el elemento.
   peek() {
     return this.items[this.items.length - 1];
+    
   }
   //retorna el numero de elementos de la pila.
   size() {
